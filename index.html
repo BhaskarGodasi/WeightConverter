@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>converter</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div
+      class="container-fluid d-flex justify-content-center align-items-center w-100 bg-light vh-100"
+    >
+      <div class="card  w-50 w-sm-100 v-50 m-5 bg-dark">
+        <div class="row h-50 w-100 my-5">
+          <div class="col-sm-6 col-md-6 d-flex flex-column">
+            <input type="number" id="inputnum" class="m-2 form-control"/>
+            <select name="selectedWeight" id="selectedWeight"class="m-2 form-control">
+              <option value="Gram">Gram</option>
+              <option value="Kilogram">Kilogram</option>
+              <option value="Pound">Pound</option>
+              <option value="Tonne">Tonne</option>
+            </select>
+          </div>
+          <div class="col-sm-6 col-md-6 d-flex flex-column">
+            <input type="number" id="result"  class="m-2 form-control"/>
+            <select name="requiredWeight" id="requiredWeight"class="m-2 form-control">
+              <option value="Gram">Gram</option>
+              <option value="Kilogram">Kilogram</option>
+              <option value="Pound">Pound</option>
+              <option value="Tonne">Tonne</option>
+            </select>
+          </div>
+        </div>
+        <div class="submit d-flex justify-content-center mb-5">
+          <button class="btn_submit">Convert</button>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  
+  </body>
+</html>
